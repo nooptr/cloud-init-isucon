@@ -10,16 +10,16 @@ Apple Silicon(aarch64)にも対応しているため、[Multipass](https://multi
 ### cloud-config
 
 * 公式
-  * [ISUCON10予選](https://github.com/matsuu/cloud-init-isucon/tree/main/isucon10q)
-  * [ISUCON11予選](https://github.com/matsuu/cloud-init-isucon/tree/main/isucon11q)
-  * [ISUCON12予選](https://github.com/matsuu/cloud-init-isucon/tree/main/isucon12q)
+  * [ISUCON10予選](https://github.com/nooptr/cloud-init-isucon/tree/main/isucon10q)
+  * [ISUCON11予選](https://github.com/nooptr/cloud-init-isucon/tree/main/isucon11q)
+  * [ISUCON12予選](https://github.com/nooptr/cloud-init-isucon/tree/main/isucon12q)
 * 非公式
-  * [Pixiv社内ISUCON2016](https://github.com/matsuu/cloud-init-isucon/tree/main/private-isu)
-  * [ISUCON11事前講習](https://github.com/matsuu/cloud-init-isucon/tree/main/isucon11-prior)
-  * [Kayac社内ISUCON2022](https://github.com/matsuu/cloud-init-kayac-isucon-2022)
-  * [NRI-ISUCON2022](https://github.com/matsuu/cloud-init-isucon/tree/main/nri-isucon2022)
+  * [Pixiv社内ISUCON2016](https://github.com/nooptr/cloud-init-isucon/tree/main/private-isu)
+  * [ISUCON11事前講習](https://github.com/nooptr/cloud-init-isucon/tree/main/isucon11-prior)
+  * [Kayac社内ISUCON2022](https://github.com/nooptr/cloud-init-kayac-isucon-2022)
+  * [NRI-ISUCON2022](https://github.com/nooptr/cloud-init-isucon/tree/main/nri-isucon2022)
 
-サーバ内の構築にはAnsibleを使っています。Ansibleのplaybookのみ必要な場合は[matsuu/ansible-isucon](https://github.com/matsuu/ansible-isucon)をどうぞ。
+サーバ内の構築にはAnsibleを使っています。Ansibleのplaybookのみ必要な場合は[nooptr/ansible-isucon](https://github.com/nooptr/ansible-isucon)をどうぞ。
 
 ## Usage
 
@@ -96,12 +96,12 @@ sudo /var/lib/cloud/instance/scripts/runcmd
 
 ## Others
 
-* [matsuu/ansible-isucon](https://github.com/matsuu/ansible-isucon)
-* [matsuu/aws-isucon](https://github.com/matsuu/aws-isucon)
-* [matsuu/docker-isucon](https://github.com/matsuu/docker-isucon)
-* [matsuu/oci-arm-isucon](https://github.com/matsuu/oci-arm-isucon)
-* [matsuu/vagrant-isucon](https://github.com/matsuu/vagrant-isucon)
-* [matsuu/wsl-isucon](https://github.com/matsuu/wsl-isucon)
+* [nooptr/ansible-isucon](https://github.com/nooptr/ansible-isucon)
+* [nooptr/aws-isucon](https://github.com/nooptr/aws-isucon)
+* [nooptr/docker-isucon](https://github.com/nooptr/docker-isucon)
+* [nooptr/oci-arm-isucon](https://github.com/nooptr/oci-arm-isucon)
+* [nooptr/vagrant-isucon](https://github.com/nooptr/vagrant-isucon)
+* [nooptr/wsl-isucon](https://github.com/nooptr/wsl-isucon)
 
 ## License
 
